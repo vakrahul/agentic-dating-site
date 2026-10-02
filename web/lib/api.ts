@@ -8,8 +8,11 @@ import type {
   RunOut,
 } from "./types";
 
+const rawBase = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:8000";
 export const API_BASE = (
-  process.env.NEXT_PUBLIC_API_BASE || "http://localhost:8000"
+  rawBase.startsWith("http://") || rawBase.startsWith("https://")
+    ? rawBase
+    : `https://${rawBase}`
 ).replace(/\/$/, "");
 
 export class ApiError extends Error {
