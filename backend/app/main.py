@@ -14,13 +14,18 @@ async def lifespan(app: FastAPI):
     get_settings()
     await init_db()
     await _fail_stale_runs()
-    from .scoring.embeddings import warmup
 
-    warmup()
+    # Run heavy model warmup in a background task so the web port opens instantly
+    import asyncio
 
-    from .pipeline import resume_queued_people
+    async def _async_warmup():
+        try:
+            from .scoring.embeddings import warmup
+            await asyncio.to_thread(warmup)
+        except Exception:
+            pass
 
-    await resume_queued_people(include_failed=True)
+    asyncio.create_task(_async_warmup())
     yield
 
 
