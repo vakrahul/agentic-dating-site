@@ -50,7 +50,7 @@ class Settings(BaseSettings):
     date_concurrency: int = 4
     llm_rate_limit_seconds: float = 15.0
 
-    cors_origins: str = "http://localhost:3000,http://127.0.0.1:3000"
+    cors_origins: str = "*"
 
     @property
     def apify_tokens(self) -> list[str]:
