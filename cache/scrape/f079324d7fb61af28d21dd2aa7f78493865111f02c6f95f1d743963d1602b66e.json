@@ -1,0 +1,99 @@
+{
+  "url": "https://www.linkedin.com/in/shaanpuri",
+  "actor_id": "bovi/linkedin-profile-scraper",
+  "items": [
+    {
+      "profile_url": "https://www.linkedin.com/in/shaanpuri",
+      "slug": "shaanpuri",
+      "name": "Shaan Puri",
+      "first_name": "Shaan",
+      "last_name": "Puri",
+      "headline": "Authoritative",
+      "job_title": null,
+      "current_company": "Stealth",
+      "current_company_url": null,
+      "location": "San Francisco, California, United States",
+      "country": "US",
+      "education": [
+        {
+          "name": "Duke University",
+          "url": "https://www.linkedin.com/school/duke-university/",
+          "start": 2006,
+          "end": 2010
+        }
+      ],
+      "experience": [
+        {
+          "name": "Stealth",
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "photo_url": "https://media.licdn.com/dms/image/v2/D4D03AQHWqSgokz7SaQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1646161776177?e=2147483647&v=beta&t=J7y-7RSAznuhUrXnm1dEkigkSVmUaOOdAaHCmxusM6k",
+      "follower_count": 70772,
+      "description": "Enjoy building companies. Many failures, a few wins. Pretty good at going from 0 --&gt;…",
+      "languages": null,
+      "same_as": [
+        "https://www.linkedin.com/in/shaanpuri"
+      ],
+      "recent_posts": [
+        {
+          "headline": "What Famous Startup's Landing Pages Looked Like When They Launched.",
+          "url": "https://www.linkedin.com/pulse/what-famous-startups-landing-pages-looked-like-when-launched-puri",
+          "published": "2015-06-21T09:48:09.000+00:00"
+        },
+        {
+          "headline": "Don't \"Fake it Till You Make it\"",
+          "url": "https://www.linkedin.com/pulse/dont-fake-till-you-make-shaan-puri",
+          "published": "2015-05-15T17:30:43.000+00:00"
+        }
+      ],
+      "parse_path": "jsonld:facebookexternalhit/1.1",
+      "parse_confidence": 1,
+      "warnings": []
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "url": "https://www.linkedin.com/in/codiesanchez",
+  "actor_id": "bovi/linkedin-profile-scraper",
+  "items": [
+    {
+      "profile_url": "https://www.linkedin.com/in/codiesanchez",
+      "slug": "codiesanchez",
+      "name": "Codie A. Sanchez",
+      "first_name": "Codie A.",
+      "last_name": "Sanchez",
+      "headline": "Authoritative, Creator, Top Voice",
+      "job_title": null,
+      "current_company": "Contrarian Thinking",
+      "current_company_url": "https://www.linkedin.com/company/contrarianthinking",
+      "location": "Austin, Texas, United States",
+      "country": "US",
+      "education": [
+        {
+          "name": "Georgetown University",
+          "url": "https://www.linkedin.com/school/georgetown-university/",
+          "start": 2011,
+          "end": 2013
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": 2004,
+          "end": 2008
+        }
+      ],
+      "experience": [
+        {
+          "name": "Contrarian Thinking",
+          "url": "https://www.linkedin.com/company/contrarianthinking",
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQGoSM09JhbGzA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730215452793?e=2147483647&v=beta&t=00RFzyjD7A8ovXR6NlHaWd4PqkAYLa5-_HiWYZFYknw",
+      "follower_count": 610055,
+      "description": "On a mission to create financially free and free-thinking humans.<br><br>I founded a…",
+      "languages": null,
+      "same_as": [
+        "https://www.linkedin.com/in/codiesanchez"
+      ],
+      "recent_posts": [
+        {
+          "headline": "Stop Asking for Permission to Profit",
+          "url": "https://www.linkedin.com/pulse/stop-asking-permission-profit-codie-a-sanchez",
+          "published": "2020-07-23T17:01:29.000+00:00"
+        },
+        {
+          "headline": "How to Get Hired In Cannabis",
+          "url": "https://www.linkedin.com/pulse/how-get-hired-cannabis-codie-a-sanchez",
+          "published": "2020-07-15T14:22:08.000+00:00"
+        },
+        {
+          "headline": "9 Trends to Make $ from COVID-19 – The Great Accelerator",
+          "url": "https://www.linkedin.com/pulse/9-trends-make-from-covid-19-great-accelerator-codie-a-sanchez-1c",
+          "published": "2020-07-08T19:00:16.000+00:00"
+        },
+        {
+          "headline": "5 Rules: How to Win Any Argument",
+          "url": "https://www.linkedin.com/pulse/5-rules-how-win-any-argument-codie-a-sanchez",
+          "published": "2020-07-01T20:43:57.000+00:00"
+        },
+        {
+          "headline": "28 Side Hustles For the 21st Century",
+          "url": "https://www.linkedin.com/pulse/28-side-hustles-codie-a-sanchez",
+          "published": "2020-06-24T17:31:59.000+00:00"
+        },
+        {
+          "headline": "Knowing what to ignore…",
+          "url": "https://www.linkedin.com/pulse/knowing-what-ignore-codie-a-sanchez",
+          "published": "2020-06-10T18:42:12.000+00:00"
+        },
+        {
+          "headline": "Contrarian Thinking: The Platform Effect",
+          "url": "https://www.linkedin.com/pulse/contrarian-thinking-platform-effect-codie-a-sanchez",
+          "published": "2020-06-05T14:37:28.000+00:00"
+        },
+        {
+          "headline": "The Power of Money",
+          "url": "https://www.linkedin.com/pulse/power-money-codie-a-sanchez",
+          "published": "2020-05-29T01:05:29.000+00:00"
+        },
+        {
+          "headline": "#1 Fallacy In Investing Today",
+          "url": "https://www.linkedin.com/pulse/1-fallacy-investing-today-codie-a-sanchez",
+          "published": "2020-05-21T17:11:52.000+00:00"
+        },
+        {
+          "headline": "How Downturns Can be GREAT for Brands.",
+          "url": "https://www.linkedin.com/pulse/how-downturns-can-great-brands-codie-a-sanchez",
+          "published": "2020-05-18T13:59:52.000+00:00"
+        }
+      ],
+      "parse_path": "jsonld:facebookexternalhit/1.1",
+      "parse_confidence": 1,
+      "warnings": []
+    }
+  ]
+}

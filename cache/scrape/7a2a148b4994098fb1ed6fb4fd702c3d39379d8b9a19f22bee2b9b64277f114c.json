@@ -1,0 +1,142 @@
+{
+  "url": "https://www.linkedin.com/in/ali-abdaal",
+  "actor_id": "bovi/linkedin-profile-scraper",
+  "items": [
+    {
+      "profile_url": "https://uk.linkedin.com/in/aliabdaal",
+      "slug": "aliabdaal",
+      "name": "Ali Abdaal",
+      "first_name": "Ali",
+      "last_name": "Abdaal",
+      "headline": "Sparkle Studios",
+      "job_title": null,
+      "current_company": "Sparkle Studios",
+      "current_company_url": "https://www.linkedin.com/company/sparklestudios",
+      "location": "London, England, United Kingdom",
+      "country": "GB",
+      "education": [
+        {
+          "name": "University of Cambridge",
+          "url": "https://uk.linkedin.com/school/university-of-cambridge/",
+          "start": 2015,
+          "end": 2018
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": 2012,
+          "end": 2015
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": 2005,
+          "end": 2012
+        }
+      ],
+      "experience": [
+        {
+          "name": "Sparkle Studios",
+          "url": "https://www.linkedin.com/company/sparklestudios",
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQEBEI8UuxaO5w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1646422991113?e=2147483647&v=beta&t=3BkHQGUx6xAf216a-QyWOmP6927bkFckbYkZXEEv6VU",
+      "follower_count": 208254,
+      "description": "I’m Ali, a YouTuber, podcaster, author of New York Times and Sunday Times bestseller…",
+      "languages": [
+        "English",
+        "Urdu"
+      ],
+      "same_as": [
+        "https://uk.linkedin.com/in/aliabdaal"
+      ],
+      "recent_posts": [
+        {
+          "headline": "🧪 The 3-Step Formula for Writing Better Videos",
+          "url": "https://www.linkedin.com/pulse/3-step-formula-writing-better-videos-ali-abdaal-i05fe",
+          "published": "2025-05-07T12:17:40.000+00:00"
+        },
+        {
+          "headline": "We set 18 goals in Q1 and only hit 4 of them. Whoops.",
+          "url": "https://www.linkedin.com/pulse/we-set-18-goals-q1-only-hit-4-them-whoops-ali-abdaal-cwcpe",
+          "published": "2025-04-24T10:10:24.000+00:00"
+        },
+        {
+          "headline": "The Search for Creative Meaning",
+          "url": "https://www.linkedin.com/pulse/search-creative-meaning-ali-abdaal-rkwhe",
+          "published": "2025-04-16T15:47:45.000+00:00"
+        },
+        {
+          "headline": "The 10% Edge",
+          "url": "https://www.linkedin.com/pulse/10-edge-ali-abdaal",
+          "published": "2023-02-28T11:52:56.000+00:00"
+        },
+        {
+          "headline": "❌ The Problem With Wanting Things",
+          "url": "https://www.linkedin.com/pulse/problem-wanting-things-ali-abdaal",
+          "published": "2023-02-21T11:29:43.000+00:00"
+        },
+        {
+          "headline": "An important lesson I learned this week",
+          "url": "https://www.linkedin.com/pulse/important-lesson-i-learned-week-ali-abdaal",
+          "published": "2023-02-14T12:21:59.000+00:00"
+        },
+        {
+          "headline": "🏗️ Prolific Beats Perfect",
+          "url": "https://www.linkedin.com/pulse/prolific-beats-perfect-ali-abdaal",
+          "published": "2023-02-07T16:59:06.000+00:00"
+        },
+        {
+          "headline": "🏰 Ready for an Adventure?",
+          "url": "https://www.linkedin.com/pulse/ready-adventure-ali-abdaal",
+          "published": "2023-02-01T11:48:07.000+00:00"
+        },
+        {
+          "headline": "🥱 I Wasted 5 Days of My Life",
+          "url": "https://www.linkedin.com/pulse/i-wasted-5-days-my-life-ali-abdaal",
+          "published": "2023-01-27T10:48:38.000+00:00"
+        },
+        {
+          "headline": "🥇The Productivity Pendulum",
+          "url": "https://www.linkedin.com/pulse/productivity-pendulum-ali-abdaal",
+          "published": "2023-01-20T16:10:20.000+00:00"
+        }
+      ],
+      "parse_path": "jsonld:facebookexternalhit/1.1",
+      "parse_confidence": 1,
+      "warnings": []
+    }
+  ]
+}

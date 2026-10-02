@@ -1,0 +1,76 @@
+{
+  "url": "https://www.linkedin.com/in/dickiebush",
+  "actor_id": "bovi/linkedin-profile-scraper",
+  "items": [
+    {
+      "profile_url": "https://www.linkedin.com/in/dickiebush",
+      "slug": "dickiebush",
+      "name": "Dickie Bush 🚢",
+      "first_name": "Dickie",
+      "last_name": "Bush 🚢",
+      "headline": "Authoritative",
+      "job_title": null,
+      "current_company": "AI Writing Skool",
+      "current_company_url": "https://www.linkedin.com/company/ai-writing-skool",
+      "location": "Miami, Florida, United States",
+      "country": "US",
+      "education": [
+        {
+          "name": "Princeton University",
+          "url": "https://www.linkedin.com/school/princeton-university/",
+          "start": 2014,
+          "end": 2018
+        }
+      ],
+      "experience": [
+        {
+          "name": "AI Writing Skool",
+          "url": "https://www.linkedin.com/company/ai-writing-skool",
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQFjX-BmKVA8sw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1681174265529?e=2147483647&v=beta&t=GYdps6kCqbpYiI_dv8gqKYQcR-iv1QPz5QBib18lSj0",
+      "follower_count": 157364,
+      "description": "Here's a quick rundown of how I've spent my last 5 years:<br><br>1. Studied math and…",
+      "languages": null,
+      "same_as": [
+        "https://www.linkedin.com/in/dickiebush"
+      ],
+      "recent_posts": null,
+      "parse_path": "jsonld:facebookexternalhit/1.1",
+      "parse_confidence": 1,
+      "warnings": []
+    }
+  ]
+}

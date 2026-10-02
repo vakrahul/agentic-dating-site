@@ -1,0 +1,199 @@
+{
+  "url": "https://www.linkedin.com/in/justinwelsh",
+  "actor_id": "bovi/linkedin-profile-scraper",
+  "items": [
+    {
+      "profile_url": "https://www.linkedin.com/in/justinwelsh",
+      "slug": "justinwelsh",
+      "name": "Justin Welsh",
+      "first_name": "Justin",
+      "last_name": "Welsh",
+      "headline": "Authoritative",
+      "job_title": null,
+      "current_company": "the saturday essay.",
+      "current_company_url": "https://www.linkedin.com/company/saturday-essay",
+      "location": "New York City Metropolitan Area",
+      "country": "US",
+      "education": [
+        {
+          "name": "The Ohio State University",
+          "url": "https://www.linkedin.com/school/the-ohio-state-university/",
+          "start": 1999,
+          "end": 2003
+        }
+      ],
+      "experience": [
+        {
+          "name": "the saturday essay.",
+          "url": "https://www.linkedin.com/company/saturday-essay",
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQFSnJr2hvWPQQ/profile-displayphoto-scale_200_200/B4EZ5k2sLHHUAg-/0/1779808520452?e=2147483647&v=beta&t=wN0G6XMt2JrdW-EYpl8IvfrCge1a25V78rD59gG8LGY",
+      "follower_count": 883015,
+      "description": "For more than a decade, I lived the kind of life ambitious people are told to want. I…",
+      "languages": null,
+      "same_as": [
+        "https://www.linkedin.com/in/justinwelsh"
+      ],
+      "recent_posts": [
+        {
+          "headline": "Before you make the deal.",
+          "url": "https://www.linkedin.com/pulse/before-you-make-deal-justin-welsh-4ryae",
+          "published": "2026-09-05T13:30:02.000+00:00"
+        },
+        {
+          "headline": "Your second choosing.",
+          "url": "https://www.linkedin.com/pulse/your-second-choosing-justin-welsh-o9eme",
+          "published": "2026-08-29T13:30:02.000+00:00"
+        },
+        {
+          "headline": "People deserve bad news.",
+          "url": "https://www.linkedin.com/pulse/people-deserve-bad-news-justin-welsh-wd0de",
+          "published": "2026-08-22T13:30:02.000+00:00"
+        },
+        {
+          "headline": "The rule that worked too well.",
+          "url": "https://www.linkedin.com/pulse/rule-worked-too-well-justin-welsh-zm5ge",
+          "published": "2026-08-15T13:30:02.000+00:00"
+        },
+        {
+          "headline": "Why are you taking this out on me?",
+          "url": "https://www.linkedin.com/pulse/why-you-taking-out-me-justin-welsh-dtnqe",
+          "published": "2026-08-08T13:30:03.000+00:00"
+        },
+        {
+          "headline": "Ask for what you want.",
+          "url": "https://www.linkedin.com/pulse/ask-what-you-want-justin-welsh-3huue",
+          "published": "2026-08-01T13:30:04.000+00:00"
+        },
+        {
+          "headline": "Mediocrity at scale.",
+          "url": "https://www.linkedin.com/pulse/mediocrity-scale-justin-welsh-m2lwc",
+          "published": "2026-07-25T13:29:02.000+00:00"
+        },
+        {
+          "headline": "The machine is a mirror.",
+          "url": "https://www.linkedin.com/pulse/machine-mirror-justin-welsh-iipde",
+          "published": "2026-07-18T13:30:02.000+00:00"
+        },
+        {
+          "headline": "Having fun is the new moat.",
+          "url": "https://www.linkedin.com/pulse/having-fun-new-moat-justin-welsh-ezwxe",
+          "published": "2026-07-11T13:30:02.000+00:00"
+        },
+        {
+          "headline": "Stop sharpening your axe.",
+          "url": "https://www.linkedin.com/pulse/stop-sharpening-your-axe-justin-welsh-hoz9c",
+          "published": "2026-07-04T13:30:06.000+00:00"
+        }
+      ],
+      "parse_path": "jsonld:facebookexternalhit/1.1",
+      "parse_confidence": 1,
+      "warnings": []
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "url": "https://www.linkedin.com/in/stephaniesmith2",
+  "actor_id": "bovi/linkedin-profile-scraper",
+  "items": [
+    {
+      "profile_url": "https://www.linkedin.com/in/stephaniesmith2",
+      "slug": "stephaniesmith2",
+      "name": "Stephanie Smith",
+      "first_name": "Stephanie",
+      "last_name": "Smith",
+      "headline": "Authoritative",
+      "job_title": null,
+      "current_company": "Amazon Web Services (AWS)",
+      "current_company_url": "https://www.linkedin.com/company/amazon-web-services",
+      "location": "Seattle, Washington, United States",
+      "country": "US",
+      "education": [
+        {
+          "name": "University of Missouri-Columbia",
+          "url": "https://www.linkedin.com/school/university-of-missouri/",
+          "start": 2008,
+          "end": 2010
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": 2004,
+          "end": 2008
+        }
+      ],
+      "experience": [
+        {
+          "name": "Amazon Web Services (AWS)",
+          "url": "https://www.linkedin.com/company/amazon-web-services",
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "photo_url": "https://static.licdn.com/aero-v1/sc/h/bgaqk7x4ntjz0wg67d8u723eb",
+      "follower_count": 3114,
+      "description": "Specialties: Writing, editing, brainstorming, story generation, interviewing, SEO…",
+      "languages": null,
+      "same_as": [
+        "https://www.linkedin.com/in/stephaniesmith2"
+      ],
+      "recent_posts": null,
+      "parse_path": "jsonld:facebookexternalhit/1.1",
+      "parse_confidence": 1,
+      "warnings": []
+    }
+  ]
+}

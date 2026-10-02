@@ -1,0 +1,39 @@
+{
+  "url": "https://www.linkedin.com/in/marclouvion",
+  "actor_id": "bovi/linkedin-profile-scraper",
+  "items": [
+    {
+      "profile_url": "https://id.linkedin.com/in/marclouvion",
+      "slug": "marclouvion",
+      "name": "Marc Lou",
+      "first_name": "Marc",
+      "last_name": "Lou",
+      "headline": "Solopreneur shipping startups like a madman | $94,799/month",
+      "job_title": "Founder",
+      "current_company": "Marclou",
+      "current_company_url": null,
+      "location": "Bali, Indonesia",
+      "country": "ID",
+      "education": null,
+      "experience": [
+        {
+          "name": "Marclou",
+          "url": null,
+          "start": "2016-01",
+          "end": null
+        }
+      ],
+      "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQHiO9lyvgMS9w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1619192462048?e=2147483647&v=beta&t=Qb9oR0KwLWoEkFHR5Cgye71j1T3vhGmDdr3OVYhOGHk",
+      "follower_count": 62690,
+      "description": "I built 25 startups in the last 3 years. 12 made money. 1 pay much more than the bills.",
+      "languages": null,
+      "same_as": [
+        "https://id.linkedin.com/in/marclouvion"
+      ],
+      "recent_posts": null,
+      "parse_path": "jsonld:facebookexternalhit/1.1",
+      "parse_confidence": 1,
+      "warnings": []
+    }
+  ]
+}

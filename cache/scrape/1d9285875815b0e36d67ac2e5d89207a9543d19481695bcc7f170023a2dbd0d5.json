@@ -1,0 +1,136 @@
+{
+  "url": "https://www.linkedin.com/in/amandanat",
+  "actor_id": "bovi/linkedin-profile-scraper",
+  "items": [
+    {
+      "profile_url": "https://www.linkedin.com/in/amandanat",
+      "slug": "amandanat",
+      "name": "Amanda Natividad",
+      "first_name": "Amanda",
+      "last_name": "Natividad",
+      "headline": "Authoritative, Creator, Top Voice",
+      "job_title": null,
+      "current_company": "SparkToro",
+      "current_company_url": "https://www.linkedin.com/company/sparktoro",
+      "location": "Los Angeles, California, United States",
+      "country": "US",
+      "education": [
+        {
+          "name": "University of California, Los Angeles",
+          "url": "https://www.linkedin.com/school/ucla/",
+          "start": null,
+          "end": 2007
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": 2011,
+          "end": 2012
+        }
+      ],
+      "experience": [
+        {
+          "name": "SparkToro",
+          "url": "https://www.linkedin.com/company/sparktoro",
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQHvJYDUvvd4MQ/profile-displayphoto-scale_200_200/B56Z.unh9GG4Ac-/0/1785341027469?e=2147483647&v=beta&t=xy_Zb55S2gsDi7ryGdTnm3Az3P9CWWx61Gd6iB6-T18",
+      "follower_count": 67849,
+      "description": "I’m the founder of Zero Click Marketing, a podcast and consultancy built around a…",
+      "languages": null,
+      "same_as": [
+        "https://www.linkedin.com/in/amandanat"
+      ],
+      "recent_posts": [
+        {
+          "headline": "What I Wish I Knew About Hiring Marketing Agencies When I Was In-House",
+          "url": "https://www.linkedin.com/pulse/what-i-wish-knew-hiring-marketing-agencies-when-amanda-natividad",
+          "published": "2020-10-29T19:08:08.000+00:00"
+        }
+      ],
+      "parse_path": "jsonld:facebookexternalhit/1.1",
+      "parse_confidence": 1,
+      "warnings": []
+    }
+  ]
+}

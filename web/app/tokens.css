@@ -1,0 +1,197 @@
+@import "@fontsource-variable/inter-tight";
+@import "@fontsource/jetbrains-mono";
+
+/* ==========================================================================
+   THEME TOKENS: Signal Light (Default) & Signal Dark
+   ========================================================================== */
+
+/* 1. Signal Light Design Theme (Default) */
+:root,
+[data-theme="light"],
+html.light {
+  --color-bg: #fafbfc;
+  --color-surface: #ffffff;
+  --color-surface-elevated: #f3f4f6;
+  --color-surface-highlight: #e5e7eb;
+
+  --color-spark: #059669;
+  --color-spark-glow: rgba(5, 150, 105, 0.12);
+  --color-friction: #e11d48;
+  --color-friction-glow: rgba(225, 29, 72, 0.12);
+  --color-accent: #2563eb;
+  --color-accent-glow: rgba(37, 99, 235, 0.12);
+  --color-brand-orange: #ea580c;
+
+  --color-ink: #0f172a;
+  --color-muted: #64748b;
+  --color-muted-dark: #94a3b8;
+  --color-hairline: rgba(15, 23, 42, 0.08);
+  --color-hairline-bright: rgba(15, 23, 42, 0.18);
+
+  --gradient-brand: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 45%, #ea580c 100%);
+  --shadow-glass: 0 1px 3px rgba(15, 23, 42, 0.04), 0 12px 28px -4px rgba(15, 23, 42, 0.06);
+  --glass-bg: rgba(255, 255, 255, 0.92);
+
+  --radius-card: 20px;
+  --radius-pill: 9999px;
+
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* 2. Signal Dark Theme */
+[data-theme="dark"],
+html.dark {
+  --color-bg: #07070a;
+  --color-surface: #0e0e13;
+  --color-surface-elevated: #14141c;
+  --color-surface-highlight: #1c1c26;
+
+  --color-spark: #7cffb2;
+  --color-spark-glow: rgba(124, 255, 178, 0.18);
+  --color-friction: #ff5c7a;
+  --color-friction-glow: rgba(255, 92, 122, 0.18);
+  --color-accent: #8b8bff;
+  --color-accent-glow: rgba(139, 139, 255, 0.18);
+  --color-brand-orange: #f97316;
+
+  --color-ink: #f4f4f7;
+  --color-muted: #7d7d91;
+  --color-muted-dark: #3d3d4e;
+  --color-hairline: rgba(255, 255, 255, 0.07);
+  --color-hairline-bright: rgba(255, 255, 255, 0.15);
+
+  --gradient-brand: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #f97316 100%);
+  --shadow-glass: inset 0 1px 0 0 rgba(255, 255, 255, 0.07), 0 12px 36px -8px rgba(0, 0, 0, 0.45);
+  --glass-bg: rgba(14, 14, 19, 0.76);
+}
+
+/* Glass Card - Clean, no white radial flashlight */
+.glass-card {
+  position: relative;
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--color-hairline);
+  box-shadow: var(--shadow-glass);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  transition: border-color 0.2s var(--ease-expo),
+    box-shadow 0.2s var(--ease-expo),
+    transform 0.2s var(--ease-expo);
+}
+
+.glass-card:hover {
+  border-color: var(--color-hairline-bright);
+}
+
+/* Glass panel lighter */
+.glass-panel {
+  background: var(--color-surface-elevated);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--color-hairline);
+  box-shadow: var(--shadow-glass);
+  border-radius: var(--radius-card);
+}
+
+/* Pointer Glow container (White hover light flash permanently removed per request) */
+.pointer-glow {
+  position: relative;
+}
+
+/* Holographic Foil Chip (Surprise Match / False Friend) */
+.foil-chip {
+  position: relative;
+  overflow: hidden;
+  border-radius: 9999px;
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-hairline-bright);
+  transition: transform 0.2s var(--ease-spring), border-color 0.2s ease;
+}
+.foil-chip::after {
+  content: "";
+  position: absolute;
+  inset: -150%;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(124, 255, 178, 0.25) 0deg,
+    rgba(37, 99, 235, 0.25) 90deg,
+    rgba(234, 88, 12, 0.25) 180deg,
+    rgba(37, 99, 235, 0.25) 270deg,
+    rgba(124, 255, 178, 0.25) 360deg
+  );
+  opacity: 0;
+  transform: rotate(0deg);
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+.foil-chip:hover::after {
+  opacity: 1;
+  animation: conicSpin 4s linear infinite;
+}
+
+/* Shimmer Sweep Animation */
+.shimmer-sweep {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer-sweep::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--color-hairline-bright) 50%,
+    transparent 100%
+  );
+  transform: translateX(-100%);
+  animation: shimmer 2s infinite;
+  pointer-events: none;
+}
+
+/* Brand Gradient Text */
+.brand-gradient-text {
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Tabular Numerals */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-hairline-bright);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted);
+}
+
+/* Reduced motion overrides */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

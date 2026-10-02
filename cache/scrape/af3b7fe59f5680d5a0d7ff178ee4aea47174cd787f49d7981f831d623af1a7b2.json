@@ -1,0 +1,195 @@
+{
+  "url": "https://www.linkedin.com/in/alex-lieberman",
+  "actor_id": "bovi/linkedin-profile-scraper",
+  "items": [
+    {
+      "profile_url": "https://www.linkedin.com/in/alex-lieberman",
+      "slug": "alex-lieberman",
+      "name": "Alex Lieberman",
+      "first_name": "Alex",
+      "last_name": "Lieberman",
+      "headline": "Authoritative, Creator, Top Voice",
+      "job_title": null,
+      "current_company": "Tenex",
+      "current_company_url": "https://www.linkedin.com/company/tenexco",
+      "location": "New York City Metropolitan Area",
+      "country": "US",
+      "education": [
+        {
+          "name": "University of Michigan - Stephen M. Ross School of Business",
+          "url": "https://www.linkedin.com/school/michiganross/",
+          "start": 2011,
+          "end": 2015
+        }
+      ],
+      "experience": [
+        {
+          "name": "Tenex",
+          "url": "https://www.linkedin.com/company/tenexco",
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        },
+        {
+          "name": null,
+          "url": null,
+          "start": null,
+          "end": null
+        }
+      ],
+      "photo_url": "https://static.licdn.com/aero-v1/sc/h/bgaqk7x4ntjz0wg67d8u723eb",
+      "follower_count": 220296,
+      "description": "Experience: Tenex · Education: University of Michigan - Stephen M. Ross School of Business · Location: New York City Metropolitan Area · 500+ connections on LinkedIn. View Alex Lieberman’s profile on LinkedIn, a professional community of 1 billion members.",
+      "languages": [
+        "English"
+      ],
+      "same_as": [
+        "https://www.linkedin.com/in/alex-lieberman"
+      ],
+      "recent_posts": [
+        {
+          "headline": "The messy middle",
+          "url": "https://www.linkedin.com/pulse/messy-middle-alex-lieberman-ucafc",
+          "published": "2026-09-30T15:18:48.000+00:00"
+        },
+        {
+          "headline": "Enterprise vibecoding is a shitshow",
+          "url": "https://www.linkedin.com/pulse/enterprise-vibecoding-shitshow-alex-lieberman-poczc",
+          "published": "2026-08-18T01:21:22.000+00:00"
+        },
+        {
+          "headline": "Building an AI-Native SDLC",
+          "url": "https://www.linkedin.com/pulse/building-ai-native-sdlc-alex-lieberman-olegc",
+          "published": "2026-08-06T18:22:36.000+00:00"
+        },
+        {
+          "headline": "The Citizen Developer SDLC",
+          "url": "https://www.linkedin.com/pulse/citizen-developer-sdlc-alex-lieberman-dtpic",
+          "published": "2026-07-17T17:13:54.000+00:00"
+        },
+        {
+          "headline": "Context is King",
+          "url": "https://www.linkedin.com/pulse/context-king-alex-lieberman-oz18e",
+          "published": "2026-06-03T01:32:31.000+00:00"
+        },
+        {
+          "headline": "What the hell is a Software Factory?",
+          "url": "https://www.linkedin.com/pulse/what-hell-software-factory-alex-lieberman-g13ce",
+          "published": "2026-06-01T22:27:14.000+00:00"
+        },
+        {
+          "headline": "10 Reasons Enterprise AI Fails (And How to Fix It)",
+          "url": "https://www.linkedin.com/pulse/why-enterprise-ai-keeps-failing-how-fix-alex-lieberman-s2hpe",
+          "published": "2026-01-21T17:19:06.000+00:00"
+        },
+        {
+          "headline": "Death to the PRD",
+          "url": "https://www.linkedin.com/pulse/death-prd-alex-lieberman-cl9we",
+          "published": "2026-01-06T17:54:33.000+00:00"
+        },
+        {
+          "headline": "I wrote 3 AI playbooks you'll want for 2026",
+          "url": "https://www.linkedin.com/pulse/i-wrote-3-ai-playbooks-youll-want-2026-alex-lieberman-sgz2e",
+          "published": "2025-12-23T18:01:19.000+00:00"
+        },
+        {
+          "headline": "Make 19% better performing ads",
+          "url": "https://www.linkedin.com/pulse/make-19-better-performing-ads-alex-lieberman-7lvje",
+          "published": "2025-12-09T17:20:42.000+00:00"
+        }
+      ],
+      "parse_path": "jsonld:facebookexternalhit/1.1",
+      "parse_confidence": 1,
+      "warnings": []
+    }
+  ]
+}
