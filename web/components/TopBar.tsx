@@ -70,7 +70,7 @@ export function TopBar() {
   ];
 
   const isRunning = run?.status === "running";
-  const isDone = run?.status === "done";
+  const isDone = run?.status === "done" || run?.status === "completed";
 
   return (
     <header className="sticky top-0 z-50 w-full backdrop-blur-xl bg-bg/85 border-b border-hairline transition-colors">

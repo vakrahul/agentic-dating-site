@@ -88,7 +88,7 @@ export default function DatingArenaPage() {
         setRun((prev) =>
           prev ? { ...prev, status: e.status, error: e.error ?? null } : null
         );
-        if (e.status === "done") {
+        if (e.status === "done" || e.status === "completed") {
           setIsRunning(false);
           toast.success("All dating rounds complete! Rankings ready.");
         }
@@ -152,11 +152,13 @@ export default function DatingArenaPage() {
     }
   };
 
+  const isCompleted = run?.status === "completed" || run?.status === "done";
+
   // Funnel calculations
-  const r1Done = stats.round1_done || 0;
   const r1Total = stats.round1_total || (people.length * (people.length - 1)) / 2 || 300;
-  const r2Done = stats.round2_done || 0;
+  const r1Done = isCompleted ? r1Total : (stats.round1_done || 0);
   const r2Total = stats.round2_total || 25;
+  const r2Done = isCompleted ? r2Total : (stats.round2_done || 0);
 
   const edgesData = useMemo(() => {
     return feed.map((item) => ({
@@ -194,14 +196,14 @@ export default function DatingArenaPage() {
           </Link>
 
           <MagneticButton
-            variant="primary"
+            variant={isCompleted ? "secondary" : "primary"}
             size="md"
             onClick={handleStartRun}
             disabled={isRunning}
-            data-cursor="Run Pipeline"
+            data-cursor={isCompleted ? "Re-run Tournament" : "Run Pipeline"}
           >
             <Play className={`w-4 h-4 fill-current ${isRunning ? "animate-spin" : ""}`} />
-            <span>{isRunning ? "Simulating Dates..." : "Start Dating Run"}</span>
+            <span>{isRunning ? "Simulating Dates..." : isCompleted ? "Re-run Tournament" : "Start Dating Run"}</span>
           </MagneticButton>
         </div>
       </div>
@@ -214,7 +216,7 @@ export default function DatingArenaPage() {
             <span>Multi-Stage Elimination Funnel</span>
           </div>
           <span className="text-ink">
-            Phase: <span className="text-spark font-bold">{stats.phase || "Ready"}</span>
+            Phase: <span className="text-spark font-bold">{isCompleted ? "COMPLETED" : stats.phase?.toUpperCase() || "READY"}</span>
           </span>
         </div>
 
@@ -253,26 +255,26 @@ export default function DatingArenaPage() {
               />
             </div>
             <span className="text-[11px] font-mono text-muted block">
-              Top 20% pairings explore values and friction
+              Top pairings explore values, trade-offs and friction
             </span>
           </div>
 
           {/* Round 3: Verdict & Ranking */}
           <div className="space-y-2 bg-surface-elevated/40 p-4 rounded-xl border border-hairline">
             <div className="flex justify-between items-center text-xs">
-              <span className="font-semibold text-ink">Stage 3: Verdict</span>
+              <span className="font-semibold text-ink">Stage 3: Verdict & Rankings</span>
               <span className="font-mono text-spark font-bold">
-                {run?.status === "done" ? "100% Complete" : "Pending"}
+                {isCompleted ? "100% Complete" : stats.phase === "why" ? "Generating Citations..." : "Pending"}
               </span>
             </div>
             <div className="w-full h-1.5 bg-surface rounded-full overflow-hidden">
               <div
                 className="h-full bg-spark transition-all duration-500 rounded-full"
-                style={{ width: run?.status === "done" ? "100%" : "0%" }}
+                style={{ width: isCompleted ? "100%" : stats.phase === "why" ? `${((stats.why_done || 0) / Math.max(1, stats.why_total || 300)) * 100}%` : "0%" }}
               />
             </div>
             <span className="text-[11px] font-mono text-muted block">
-              Referee synthesis, why-text citations & final rank
+              Referee synthesis, why-text citations & final rankings
             </span>
           </div>
         </div>
