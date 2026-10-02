@@ -66,7 +66,6 @@ export function TopBar() {
     { href: "/", label: "Add People" },
     { href: "/dating", label: "Dating Arena" },
     { href: "/rankings", label: "Rankings" },
-    { href: "/demo", label: "Demo Tour" },
   ];
 
   const isRunning = run?.status === "running";

@@ -7,7 +7,6 @@ const LINKS = [
   { href: "/", label: "Add people" },
   { href: "/dating", label: "Live" },
   { href: "/rankings", label: "Rankings" },
-  { href: "/demo", label: "Demo" },
 ];
 
 export function Nav() {

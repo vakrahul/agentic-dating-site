@@ -104,13 +104,6 @@ export function CommandPalette() {
               <Trophy className="w-4 h-4 text-spark" />
               <span>Rankings Leaderboard</span>
             </Command.Item>
-            <Command.Item
-              onSelect={() => runCommand(() => router.push("/demo"))}
-              className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-ink hover:bg-surface-elevated cursor-pointer"
-            >
-              <Compass className="w-4 h-4 text-accent" />
-              <span>Guided Demo Tour</span>
-            </Command.Item>
           </Command.Group>
 
           <Command.Group heading="Actions" className="px-2 py-1 text-[11px] font-mono uppercase text-muted tracking-wider mt-2">

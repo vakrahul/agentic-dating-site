@@ -47,8 +47,8 @@ export default function RankingsOverviewPage() {
           <Link href="/">
             <MagneticButton variant="primary">Add Candidates</MagneticButton>
           </Link>
-          <Link href="/demo">
-            <MagneticButton variant="secondary">View Demo Tour</MagneticButton>
+          <Link href="/dating">
+            <MagneticButton variant="secondary">Go to Dating Arena</MagneticButton>
           </Link>
         </div>
       </div>
